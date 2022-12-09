@@ -69,11 +69,11 @@ const cars = [
   },
 ];
 
-/* for (let i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) {
   let newInfo = { licensePlate: "DGAJ" };
   cars.licensePlate = "DGAJ";
 }
-console.log("Le macchine sono:", cars); */
+console.log("Le macchine sono:", cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -130,9 +130,91 @@ console.log(numericArray);
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
 
-const posizioniCaratteri = [];
+  let ordine = {
+    a:1,
+    b:2,
+    c:3,
+    d:4,
+    e:5,
+    f:6,
+    g:7,
+    h:8,
+    i:9,
+    j:10,
+    k:11,
+    l:12,
+    m:13,
+    n:14,
+    o:15,
+    p:16,
+    q:17,
+    r:18,
+    s:19,
+    t:20,
+    u:21,
+    v:22,
+    w:23,
+    x:24,
+    y:25,
+    z:26
+  } 
+for(let i = 0; i < charactersArray.length; i++){
+ swich (true){
+  case charactersArray[i] === ordine.g;
+    numeri.push(ordine) 
+    break 
+  case: charactersArray[i] === ordine.n;
+    numeri.push(ordine) 
+  break
+  case: charactersArray[i] === ordine.u;
+    numeri.push(ordine) 
+  break
+  case: charactersArray[i] === ordine.z;
+    numeri.push(ordine) 
+  break
+  case: charactersArray[i] === ordine.d;
+    numeri.push(ordine) 
+  break
+  default:
+    console.log("nessuna delle opzioni precendenti")
+  }
+}
+/* function letterValue(str) {
+  var anum = {
+    a: 1,
+    b: 2,
+    c: 3,
+    d: 4,
+    e: 5,
+    f: 6,
+    g: 7,
+    h: 8,
+    i: 9,
+    j: 10,
+    k: 11,
+    l: 12,
+    m: 13,
+    n: 14,
+    o: 15,
+    p: 16,
+    q: 17,
+    r: 18,
+    s: 19,
+    t: 20,
+    u: 21,
+    v: 22,
+    w: 23,
+    x: 24,
+    y: 25,
+    z: 26,
+  };
+  if (str.length == 1) return anum[str] || " ";
+  return str.split("").map(letterValue);
+} */
+
+/* const posizioniCaratteri = [];
 for (let i = 0; (i = 21); i++) {}
-console.log(posizioniCaratteri);
+console.log(posizioniCaratteri); */
 
 /* }
 for (let i = 0; i < charactersArray.length; i++) {
