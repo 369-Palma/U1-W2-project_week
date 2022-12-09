@@ -23,6 +23,21 @@ console.log(ElencoOrdinato);
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
+/* for (let i = 0; i < pets.length; i++) {
+  if()
+  console.log("Animale:", pets[i]);
+} */
+function SortArray(x, y) {
+  if (x < y) {
+    return 1;
+  }
+  if (x > y) {
+    return -1;
+  }
+  return 0;
+}
+let OrdineAlfabetico = pets.sort(SortArray);
+console.log(pets);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
