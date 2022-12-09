@@ -23,10 +23,6 @@ console.log(ElencoOrdinato);
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
-/* for (let i = 0; i < pets.length; i++) {
-  if()
-  console.log("Animale:", pets[i]);
-} */
 function SortArray(x, y) {
   if (x < y) {
     return 1;
@@ -42,6 +38,10 @@ console.log(pets);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
+pets[4] = pets[0];
+pets.shift();
+console.log(pets);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
