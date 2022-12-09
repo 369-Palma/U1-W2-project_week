@@ -129,7 +129,7 @@ console.log(numericArray);
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
-
+const posizioniCaratteri = []
   let ordine = {
     a:1,
     b:2,
@@ -161,25 +161,26 @@ const charactersArray = ["g", "n", "u", "z", "d"];
 for(let i = 0; i < charactersArray.length; i++){
  swich (true){
   case charactersArray[i] === ordine.g;
-    numeri.push(ordine) 
+    posizioniCaratteri.push(ordine) 
     break 
   case: charactersArray[i] === ordine.n;
-    numeri.push(ordine) 
+    posizioniCaratteri.push(ordine) 
   break
   case: charactersArray[i] === ordine.u;
-    numeri.push(ordine) 
+    posizioniCaratteri.push(ordine) 
   break
   case: charactersArray[i] === ordine.z;
-    numeri.push(ordine) 
+    posizioniCaratteri.push(ordine) 
   break
   case: charactersArray[i] === ordine.d;
-    numeri.push(ordine) 
+    posizioniCaratteri.push(ordine) 
   break
   default:
     console.log("nessuna delle opzioni precendenti")
   }
 }
-/* function letterValue(str) {
+/* SOLUZIONE DA GOOGLE */
+/*function letterValue(str) {
   var anum = {
     a: 1,
     b: 2,
@@ -206,7 +207,7 @@ for(let i = 0; i < charactersArray.length; i++){
     w: 23,
     x: 24,
     y: 25,
-    z: 26,
+    z: 26
   };
   if (str.length == 1) return anum[str] || " ";
   return str.split("").map(letterValue);
