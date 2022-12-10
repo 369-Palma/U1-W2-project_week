@@ -128,7 +128,7 @@ console.log(numericArray);
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = ["g", "n", "u", "z", "d"];
+/* const charactersArray = ["g", "n", "u", "z", "d"];
 const posizioniCaratteri = []
   let ordine = {
     a:1,
@@ -178,7 +178,7 @@ for(let i = 0; i < charactersArray.length; i++){
   default:
     console.log("nessuna delle opzioni precendenti")
   }
-}
+} */
 /* SOLUZIONE DA GOOGLE */
 /*function letterValue(str) {
   var anum = {
