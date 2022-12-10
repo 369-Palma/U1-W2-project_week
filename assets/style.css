@@ -55,7 +55,7 @@ nav > div > span {
 .orange {
   background-color: #f56600;
   color: white;
-  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 1.25em;
 }
@@ -71,7 +71,8 @@ nav > div > span {
   margin-top: 0;
 }
 
-h4 {
+h4,
+h5 {
   margin-top: 0;
   color: white;
 }
