@@ -19,7 +19,7 @@ body {
 header div {
   background-color: #222f3e;
   text-align: left;
-  width: 100%;
+  width: auto;
   padding: 0 30px;
 }
 header div img {
