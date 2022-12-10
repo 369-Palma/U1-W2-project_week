@@ -15,12 +15,17 @@ body {
   background-color: #eaeded;
   margin-bottom: 0;
 }
-
+span a {
+  color: white;
+}
 header div {
   background-color: #222f3e;
   text-align: left;
   width: auto;
   padding: 0 30px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
 }
 header div img {
   height: 1.7em;
@@ -34,7 +39,7 @@ nav div {
 }
 nav > div > span {
   display: inline-block;
-  margin-right: 1.5em;
+  margin-right: 1em;
   margin-top: 0;
   margin-bottom: 0;
   color: white;
@@ -131,6 +136,8 @@ footer {
   background-color: #222f3e;
   text-align: center;
   margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 footer > img {
   height: 1.7em;
