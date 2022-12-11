@@ -236,8 +236,9 @@ for (j = 0; j < charactersArray.length; j++) {
 } 
 */
 
-let numeroAlfabeto = [0, 0, 0, 0, 0];
-
+let numeroAlfabeto = [];
+let oggetto;
+console.log(numeroAlfabeto);
 for (let j = 0; j < charactersArray.length; j++) {
   switch (charactersArray[j]) {
     case charactersArray[j] === "a":
@@ -259,7 +260,7 @@ for (let j = 0; j < charactersArray.length; j++) {
       numeroAlfabeto.push("6");
       break;
     case charactersArray[j] === "g":
-      numeroAlfabeto[0] = 7;
+      numeroAlfabeto[j] = oggetto;
       break;
     case charactersArray[j] === "h":
       numeroAlfabeto.push("8");
@@ -316,3 +317,4 @@ for (let j = 0; j < charactersArray.length; j++) {
   console.log(charactersArray[j]);
   console.log(numeroAlfabeto[j]);
 }
+console.log(charactersArray[1]);
