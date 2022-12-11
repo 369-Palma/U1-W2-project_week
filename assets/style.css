@@ -83,11 +83,10 @@ h5 {
   margin-top: 0;
   color: white;
 }
-.riga > h3 > a {
-  width: 1em;
-}
+
 a {
   text-decoration: none;
+  width: 1px;
 }
 .filadimmagini {
   display: inline-block;
