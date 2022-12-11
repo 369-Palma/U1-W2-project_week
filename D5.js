@@ -154,167 +154,85 @@ while (numericArray[i] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
 console.log("Esercizio 10:");
 
-/* let numeroAlfabeto = [];
-for (j = 0; j < charactersArray.length; j++) {
+let numeroAlfabeto = [0, 0, 0, 0, 0];
+for (let j = 0; j < charactersArray.length; j++) {
   switch (charactersArray[j]) {
-    case charactersArray[j] === "a":
+    case "a":
       numeroAlfabeto[j] = 1;
       break;
-    case charactersArray[j] === "b":
+    case "b":
       numeroAlfabeto[j] = 2;
       break;
-    case charactersArray[j] === "c":
+    case "c":
       numeroAlfabeto[j] = 3;
       break;
-    case charactersArray[j] === "d":
+    case "d":
       numeroAlfabeto[j] = 4;
       break;
-    case charactersArray[j] === "e":
+    case "e":
       numeroAlfabeto[j] = 5;
       break;
-    case charactersArray[j] === "f":
+    case "f":
       numeroAlfabeto[j] = 6;
       break;
-    case charactersArray[j] === "g":
+    case "g":
       numeroAlfabeto[j] = 7;
       break;
-    case charactersArray[j] === "h":
+    case "h":
       numeroAlfabeto[j] = 8;
       break;
-    case charactersArray[j] === "i":
+    case "i":
       numeroAlfabeto[j] = 9;
       break;
-    case charactersArray[j] === "l":
+    case "l":
       numeroAlfabeto[j] = 10;
       break;
-    case charactersArray[j] === "m":
+    case "m":
       numeroAlfabeto[j] = 11;
       break;
-    case charactersArray[j] === "n":
+    case "n":
       numeroAlfabeto[j] = 12;
       break;
-    case charactersArray[j] === "o":
+    case "o":
       numeroAlfabeto[j] = 13;
       break;
-    case charactersArray[j] === "p":
+    case "p":
       numeroAlfabeto[j] = 14;
       break;
-    case charactersArray[j] === "q":
+    case "q":
       numeroAlfabeto[j] = 15;
       break;
-    case charactersArray[j] === "r":
+    case "r":
       numeroAlfabeto[j] = 16;
       break;
-    case charactersArray[j] === "s":
+    case "s":
       numeroAlfabeto[j] = 17;
       break;
-    case charactersArray[j] === "t":
+    case "t":
       numeroAlfabeto[j] = 18;
       break;
-    case charactersArray[j] === "u":
+    case "u":
       numeroAlfabeto[j] = 19;
       break;
-    case charactersArray[j] === "v":
+    case "v":
       numeroAlfabeto[j] = 20;
       break;
-    case charactersArray[j] === "w":
+    case "w":
       numeroAlfabeto[j] = 21;
       break;
-    case charactersArray[j] === "x":
+    case "x":
       numeroAlfabeto[j] = 22;
       break;
-    case charactersArray[j] === "y":
+    case "y":
       numeroAlfabeto[j] = 23;
       break;
-    case charactersArray[j] === "z":
+    case "z":
       numeroAlfabeto[j] = 24;
       break;
   }
-  console.log(numeroAlfabeto[j]);
-} 
-*/
-
-let numeroAlfabeto = [];
-let oggetto;
-console.log(numeroAlfabeto);
-for (let j = 0; j < charactersArray.length; j++) {
-  switch (charactersArray[j]) {
-    case charactersArray[j] === "a":
-      numeroAlfabeto.push("1");
-      break;
-    case charactersArray[j] === "b":
-      numeroAlfabeto.push("2");
-      break;
-    case charactersArray[j] === "c":
-      numeroAlfabeto.push("3");
-      break;
-    case charactersArray[j] === "d":
-      numeroAlfabeto.push("4");
-      break;
-    case charactersArray[j] === "e":
-      numeroAlfabeto.push("5");
-      break;
-    case charactersArray[j] === "f":
-      numeroAlfabeto.push("6");
-      break;
-    case charactersArray[j] === "g":
-      numeroAlfabeto[j] = oggetto;
-      break;
-    case charactersArray[j] === "h":
-      numeroAlfabeto.push("8");
-      break;
-    case charactersArray[j] === "i":
-      numeroAlfabeto.push("9");
-      break;
-    case charactersArray[j] === "l":
-      numeroAlfabeto.push("10");
-      break;
-    case charactersArray[j] === "m":
-      numeroAlfabeto.push("11");
-      break;
-    case charactersArray[j] === "n":
-      numeroAlfabeto.push("12");
-      break;
-    case charactersArray[j] === "o":
-      numeroAlfabeto.push("13");
-      break;
-    case charactersArray[j] === "p":
-      numeroAlfabeto.push("14");
-      break;
-    case charactersArray[j] === "q":
-      numeroAlfabeto.push("15");
-      break;
-    case charactersArray[j] === "r":
-      numeroAlfabeto.push("16");
-      break;
-    case charactersArray[j] === "s":
-      numeroAlfabeto.push("17");
-      break;
-    case charactersArray[j] === "t":
-      numeroAlfabeto.push("18");
-      break;
-    case charactersArray[j] === "u":
-      numeroAlfabeto.push("19");
-      break;
-    case charactersArray[j] === "v":
-      numeroAlfabeto.push("20");
-      break;
-    case charactersArray[j] === "w":
-      numeroAlfabeto.push("21");
-      break;
-    case charactersArray[j] === "x":
-      numeroAlfabeto.push("22");
-      break;
-    case charactersArray[j] === "y":
-      numeroAlfabeto.push("23");
-      break;
-    case charactersArray[j] === "z":
-      numeroAlfabeto.push("24");
-      break;
-  }
-  console.log(charactersArray[j]);
-  console.log(numeroAlfabeto[j]);
 }
-console.log(charactersArray[1]);
+console.log(numeroAlfabeto);
+console.log(charactersArray);
